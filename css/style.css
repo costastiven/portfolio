@@ -572,34 +572,39 @@ h4 {
     box-shadow: var(--neon-box-shadow);
 }
 
-.skill-bar .bar .html {
+.skill-bar .bar .odoo {
     width: 80%;
-    animation: html 2s;
+    animation: odoo 2s;
+}
+
+.skill-bar .bar .html {
+    width: 85%;
+    animation: html 3s;
 }
 
 .skill-bar .bar .react {
     width: 65%;
-    animation: react 3s;
+    animation: react 4s;
 }
 
 .skill-bar .bar .php {
     width: 75%;
-    animation: php 4s;
+    animation: php 5s;
 }
 
 .skill-bar .bar .sql {
     width: 85%;
-    animation: sql 5s;
+    animation: sql 6s;
 }
 
 .skill-bar .bar .java {
     width: 80%;
-    animation: java 5s;
+    animation: java 7s;
 }
 
 .skill-bar .bar .sisharp {
     width: 70%;
-    animation: sisharp 5s;
+    animation: sisharp 8s;
 }
 
 /* Circles */
@@ -935,13 +940,23 @@ footer a i {
 }
 
 /* Frames Bars */
-@keyframes html {
+@keyframes odoo {
     0% {
         width: 0%;
     }
 
     100% {
         width: 80%;
+    }
+}
+
+@keyframes html {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 85%;
     }
 }
 
